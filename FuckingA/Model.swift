@@ -45,7 +45,7 @@ class Model: NSObject {
     }
     
     func getQuestionsCopy() -> [Question] {
-        shuffleInPlace()
+        //shuffleInPlace()
         
         var copy:[Question] = []
         for q in self.questions {
