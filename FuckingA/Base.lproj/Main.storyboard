@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FuckingA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;subject&gt;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="jmH-Es-T5T" userLabel="subjectLabel">
+                                <rect key="frame" x="59" y="5" width="550" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="550" id="NcM-d6-me5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This will be a question text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZkF-oo-UVJ" userLabel="questionLabel">
+                                <rect key="frame" x="59" y="35" width="550" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="550" id="ExK-WJ-I7I"/>
+                                    <constraint firstAttribute="height" constant="50" id="XtW-tz-BK1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This will be a hint, but remember that hints may also be long sentences" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="GS0-O4-fr0" userLabel="hintLabel">
+                                <rect key="frame" x="59" y="90" width="550" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="550" id="b9c-x3-bL1"/>
+                                    <constraint firstAttribute="height" constant="25" id="hmL-XM-EDm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ThL-0x-huf" userLabel="answerView">
+                                <rect key="frame" x="0.0" y="125" width="667" height="250"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iqM-JZ-Ddv" userLabel="imageView">
+                                        <rect key="frame" x="100" y="10" width="467" height="220"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="EZY-Qq-bik" userLabel="answerLabel">
+                                        <rect key="frame" x="40" y="5" width="587" height="240"/>
+                                        <string key="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</string>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="EZY-Qq-bik" firstAttribute="top" secondItem="ThL-0x-huf" secondAttribute="top" constant="5" id="0IQ-cY-DQz"/>
+                                    <constraint firstItem="iqM-JZ-Ddv" firstAttribute="leading" secondItem="ThL-0x-huf" secondAttribute="leading" constant="100" id="COE-yo-NeC"/>
+                                    <constraint firstAttribute="bottom" secondItem="EZY-Qq-bik" secondAttribute="bottom" constant="5" id="Dan-K9-CTD"/>
+                                    <constraint firstItem="EZY-Qq-bik" firstAttribute="leading" secondItem="ThL-0x-huf" secondAttribute="leading" constant="40" id="Qri-N0-xDe"/>
+                                    <constraint firstItem="iqM-JZ-Ddv" firstAttribute="top" secondItem="ThL-0x-huf" secondAttribute="top" constant="10" id="ap6-xa-KAN"/>
+                                    <constraint firstAttribute="trailing" secondItem="EZY-Qq-bik" secondAttribute="trailing" constant="40" id="l42-7a-pnr"/>
+                                    <constraint firstAttribute="trailing" secondItem="iqM-JZ-Ddv" secondAttribute="trailing" constant="100" id="lo0-ti-jbg"/>
+                                    <constraint firstAttribute="bottom" secondItem="iqM-JZ-Ddv" secondAttribute="bottom" constant="20" id="nzz-TY-yxg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZkF-oo-UVJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="68B-lj-jLF"/>
+                            <constraint firstItem="ThL-0x-huf" firstAttribute="top" secondItem="GS0-O4-fr0" secondAttribute="bottom" constant="10" id="8Fa-8e-eXd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ThL-0x-huf" secondAttribute="bottom" id="9tc-SZ-UT5"/>
+                            <constraint firstItem="GS0-O4-fr0" firstAttribute="top" secondItem="ZkF-oo-UVJ" secondAttribute="bottom" constant="5" id="E0i-eO-Lzc"/>
+                            <constraint firstItem="jmH-Es-T5T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="IDc-0x-SQl"/>
+                            <constraint firstItem="GS0-O4-fr0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VPk-jE-78M"/>
+                            <constraint firstItem="ZkF-oo-UVJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bnN-rC-vGx"/>
+                            <constraint firstItem="jmH-Es-T5T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mVz-BQ-h1h"/>
+                            <constraint firstItem="ThL-0x-huf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qFM-jy-YT8"/>
+                            <constraint firstAttribute="trailing" secondItem="ThL-0x-huf" secondAttribute="trailing" id="xMU-BT-fTo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="EZY-Qq-bik" id="BZj-4z-Y2C"/>
+                        <outlet property="hintLabel" destination="GS0-O4-fr0" id="JIh-mS-1TX"/>
+                        <outlet property="image" destination="iqM-JZ-Ddv" id="tMh-dp-8rb"/>
+                        <outlet property="questionLabel" destination="ZkF-oo-UVJ" id="BkU-D5-HkT"/>
+                        <outlet property="questionView" destination="ThL-0x-huf" id="oES-Ps-TT8"/>
+                        <outlet property="subjectLabel" destination="jmH-Es-T5T" id="fes-9h-vt9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="55"/>
+        </scene>
+    </scenes>
+</document>

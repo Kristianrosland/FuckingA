@@ -1,0 +1,560 @@
+[
+{
+"sub": "Interaction design - intro",
+"question": "Hva er de fem designprinsippene? Forklar dem med et eksempel.",
+"hint": "Hint: Visibility, feedback, constraints, consistency and affordance.",
+"ans": "1. Visibility\nShould be clear what actions are available and how they can be performed\nEks: Knapp mer synlig enn en tekstlink\n2. Feedback\nUser should be informed about what is going on (and whats happening next)\nEks: Loading bar, click-sound, good meaningful error messages\n3. Constraints\nRestricting possible actions, prevent users making mistakes\nEks: Are you sure you want to delete these files permanently?\n4. Consistency\nInterfaces should have similar operations and use similar elements for similar tasks\nSkiller mellom internal og external (in-app og across-app)\nEks: Google Docs og MS Word, play/pause.\n5. Affordances\nStrong clues to the operations of things. Should know what to do just by looking (no instruction needed).\nEks: Knobs are for turning, slots are for inserting, sliders are for tuning, etc."
+},
+{
+"sub": "Interaction design - intro",
+"question": "Beskriv usability goals",
+"hint": "User friendly",
+"ans": "Effective and efficient to use\nEasy to learn\nEasy to remember how to use\nSafe to use"
+},
+{
+"sub": "Understanding and conceptualizing",
+"question": "Hva er de forskjellige typene interaction? Beskriv dem",
+"hint": "Instructing, conversing, manipulating og exploring.",
+"ans": "Instructing\n- Issuing commands (by keyboard, function keys, selecting in menus)\n- Pro: Quick and efficient, good for repetetive kinds of actions\nConversing\n- Like having a conversation with another human\n- Pro: More two-way communication\nManipulating\n- Manipulating objects in virtual or physical space\n- User feels that he is directly controlling digital objects\n- Eks tegnebrett, Wii-controller\n- Pro: Quick to learn, experienced users can work quick, good feedback, users gain confidence\n- Cons: Not all tasks can be described easily/done directly\nExploring: Moving through a virtual environment or physical space, feks VR"
+},
+{
+"sub": "The process of interactive design",
+"question": "Beskriv de fire hovedaktivitetene i user-centered design",
+"hint": "Identifying needs/establishing requirements, designing alternatives, prototyping, evaluating (testing)",
+"ans": "Identifying needs/establishing req\n- Problem space. Who are users? What do users want/need?\n- Make requirements to answer above questions\nDesigning alternatives\n- Conceptual model\n- Wireframing: visual representation of a UI, stripped of any visual design.\n- Sketches to illustrate ideas\nCreate alternatives\n- Concrete design (colours/sounds/etc), document everything!\nPrototyping\n- Build a prototype  (from storyboard): paper prototyping/photoshop/clickables/videos\n- Later on: Functioning prototypes\nEvaluating (testing)\n- User tests\n- Focus group/interviews/scenarios\n- UX tests can (and should) be done with paper prototypes"
+},
+{
+"sub": "The process of interactive design",
+"question": "Kan du forklare fordeler og risker med personas?",
+"hint": "-",
+"ans": "Pros:\n- Strong focus on users (we design for OTHER people)\n- Making assumptions about the target audience more explicit\n- Helps to focus and design for specific target audiences\nRisks of personas:\n- Personas might not be as realistic as we thought\n- Temptation of reuse"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hvordan ser en target group description ut?",
+"hint": "Demografisk, psykografisk, teknologisk, kjønn, alder...",
+"img": "targetgroup"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva kan brukes for å establishe krav?",
+"hint": "Deles inn i to deler: user research og data gathering.",
+"ans": "User research, og data gathering methods:\nInterviews, focus groups, questionnaires, direct/idirect observation, studying documentation, researching similar products"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er utfordringer når man samer inn krav?",
+"hint": "-",
+"ans": "- Effect of the researcher may contaminate the results\n- Privacy\n- Closed cultures/communities not easy to collect data from\n- Uncertain relevance"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er contextual inquiry?",
+"hint": "Hint: User is expert, designer is apprentice",
+"ans": "Main principles\n- Context: See workplace and what happens\n- Partnership: User and developer collaborate\n- Interpretation: Observations interpreted by user and developer together\nFocus: Project focus to help understand what to look for"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hvordan kan du strukturere krav?",
+"hint": "Scenario, use cases (essential og vanlig), use case diagram, HTA, architectual diagram",
+"ans": "Scenario\n- An informal, narrative story, simple, natural, personal\n- Helps to keep design grounded in reality, and to focus on what instead of how\n- Great to connect with personas\nUse cases - makes assumptions about technology, emphasis on user-system interaction\nEssential use cases - abstract away details, does not make specific assumptions about tech\nUse case diagram: Dette kan vi\nHierarchical task analysis (HTA)\n- For investigating cognitive processes and physical actions\n- Breaking a task down into subtasks, then sub-sub-tasks and so on.\n- Group sub-tasks as plans and specify how they are carried out\n- Start with user goal (identify main tasks of this user goal)\nArchitecual diagram (flow chart) - describes how users will navigate within the system"
+},
+{
+"sub": "Prototyping",
+"question": "Hvorfor bør vi lage prototyper (når denne appen ble så bra uten)??",
+"hint": "-",
+"ans": "- For evaluation and feedback\n- Enganging the stake holders\n- Communicating in the design team\n- Test the ideas\n- Encourages reflection\n- Choosing between alternatives\n- Support creative thinking"
+},
+{
+"sub": "Prototyping",
+"question": "Definisjon: Experience prototyping",
+"hint": "Hint: Feks Agnes",
+"ans": "explore or communicate what it might be like to engage with the product (eks Agnes)"
+},
+{
+"sub": "Prototyping",
+"question": "Vi deler inn i to kompromisser i prototyping, beskriv dem",
+"hint": "Hint: Horizontal og vertical compromise",
+"ans": "Vertical compromise:  Lots of details for few functions"
+},
+{
+"sub": "Prototyping",
+"question": "Hva er et storyboard og hvordan ser det ut?",
+"hint": "Can be generated from scenarios (like a cartoon showing scenario)",
+"img": "storyboard"
+},
+{
+"sub": "Prototyping",
+"question": "Hva er en wireframe, og hvordan ser den ut?",
+"hint": "Skjelettet av en webside/app/skjerm, ofte dummy tekst",
+"img": "wireframe"
+},
+{
+"sub": "Interfaces",
+"question": "What are the interfaces of common computing devices?",
+"hint": "command-based, GUI, web, mobile",
+"img": "commoninteractiontechnologies"
+},
+{
+"sub": "Interfaces",
+"question": "Kan du nevne noen mindre vanlige interaksjonsteknologier/systemer?",
+"hint": "Wearables, VR, AR, shareable, robotic, TUIs",
+"ans": "Wearables - Smartklokker, smart-sko, smart-klær\nVR\nAR (augmented reality) - Feks pokemon go kamera med pokemon på\nShareable - mer og mer brukt\n- Ikke basert på å være intuitivt, men at brukere lærer hverandre hvordan interagere med produktet\n- Feks Snapchat har ikke så intuitivt UI, men så fort man lærer det (av andre) er det veldig smooth å bruke\nRobotic\n- Skal roboter se ut og interagere som mennesker, eller som roboter?\n- Mobile remote presence (MRP) - robot med skjerm av personen som styrer den (Phil i modern family)\nTangible user interfaces (TUIs)\n- Sensor-basert, bruker fysiske ting til å interagere med digitale objekter (feks datamusa)\n- Eks Oree: tegne på en skrivebok, få det rett inn på smartphone"
+},
+{
+"sub": "Interfaces",
+"question": "Kan du nevne noen avanserte interaksjonsteknikker?",
+"hint": "Speech, haptic, air-based gestures, BCI",
+"ans": "Speech, design issues:\n- Hvordan hjelpe folk rette opp feil eller hvis de er usikre?\n- Hvordan hjelpe folk navigere et menysystem\nHaptic\n- Basert på følelsen av touch\n- Tactile feedback: påføre vibrasjon og krefter til en persons kropp\nAir-based gestures\n- Kamera, sensorer og computer vision teknikker brukes for å gjenkjenne bevegelser\nBrain-computer interfaces (BCI)\n- Kommunikasjon mellom en persons hjernebølger og en ekstern device, feks en mus på skjermen"
+},
+{
+"sub": "Interaction design - intro",
+"question": "Definisjon: Interaksjonsdesign",
+"hint": "-",
+"ans": "Designing interactive products to support the way people communicate and interact in their everyday and working lives."
+},
+{
+"sub": "Understanding and conceptualizing",
+"question": "Definisjon: Conceptual model",
+"hint": "-",
+"ans": "A high level description of how a system is organised and operates"
+},
+{
+"sub": "Understanding and conceptualizing",
+"question": "Hvordan formulerer du en conceptual model?",
+"hint": "-",
+"ans": "Metaphores and analogies\nConcepts and relations between them\nConcepts mapped to UX"
+},
+{
+"sub": "The process of interactive design",
+"question": "Hvordan definerer man problem space (bokas def)?",
+"hint": "-",
+"ans": "What is the problem and how will we fix it?\nUnderstanding and conceptualising what is currently the UX / product and how this is going to be improved or changed."
+},
+{
+"sub": "The process of interactive design",
+"question": "Hvordan ser interaction design modellen ut (sirkelen)?",
+"hint": "-",
+"img": "designcircle"
+},
+{
+"sub": "The process of interactive design",
+"question": "Hva er en persona?",
+"hint": "-",
+"ans": "Fictional people - archetype user. Rich and realistic descriptions (name, characteristics, goals, personal background)."
+},
+{
+"sub": "Establishing requirements",
+"question": "Definisjon: Requirement",
+"hint": "-",
+"ans": "A requirement is a statement about an intended product that specifies what it should do or how it should perform."
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er de to hovedgrunnene til å lage requirements?",
+"hint": "-",
+"ans": "For å vite hva du skal bygge, og hva du IKKE bygger."
+},
+{
+"sub": "Establishing requirements",
+"question": "Beskriv de to typene requirements som finnes",
+"hint": "Funksjonelle og ikke-funksjonelle",
+"ans": "Funksjonelle: Hva skal produkter gjøre? Scope of the product\nIkke-funksjonelle: Hvordan skal produktet oppføre seg? Usability, reliability og performance"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er viktig å tenke på når du formulerer requirements?",
+"hint": "-",
+"ans": "Vær positiv, spesifikk og unngå subjektivt språk."
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er en HTA og hvordan ser den ut?",
+"hint": "Hierarcical task analysis",
+"img": "hta"
+},
+{
+"sub": "Establishing requirements",
+"question": "Hva er et architectural diagram (flow chart)?",
+"hint": "Describes how users will navigate the system",
+"img": "architecturaldiagram"
+},
+{
+"sub": "Prototyping",
+"question": "Definisjon: prototype",
+"hint": "-",
+"ans": "A limited representation of a design that allows stakeholders to interact with it and to explore its suitability."
+},
+{
+"sub": "Interfaces",
+"question": "Hva er TUI og har du eksempler på det?",
+"hint": "Tangible user interface",
+"ans": "Sensorbasert interaksjon, bruker fysiske ting til å representere digitale objekter. Når vi manipulerer den fysiske tingen påvirkes den digitale tingen.\nFeks: datamus, Oree (tegner i en skrivebok, kommer også opp på skjermen), wii-controller, leap"
+},
+{
+"sub": "Evaluation",
+"question": "Hva er inspections (evaluering)?",
+"hint": "-",
+"ans": "En måte å evaluere på med hjelp av eksperter. De bruker sin kunnskap om brukere og teknologi til å vurdere brukervennligheten."
+},
+{
+"sub": "Evaluation",
+"question": "Hva er de to inspection metodene (evaluering)?",
+"hint": "Heuristic evaluation og cognitive walkthroughs",
+"ans": "1. Heuristic evaluation - Review guided by a set of heuristics ()\n2. Cognitive walkthroughs - Stepping through a pre-planned scenario noting potential problems"
+},
+{
+"sub": "Evaluation",
+"question": "Heuristic evaluation består av tre steg, hvilke?",
+"hint": "Briefing, evaluation, debriefing",
+"ans": "1. Briefing - forteller ekspertene hva de skal gjøre\n2. Evalueringspediode - 1-2 timer, ekspertene jobber alene. En del hvor de utforsker systemet fritt, en del hvor de fokuserer på spesifikke features.\n3. Debriefing session - Ekspertene setter seg sammen og diskuterer og prioriterer problemer de har funnet."
+},
+{
+"sub": "Evaluation",
+"question": "Fordeler og ulemper med heuristic evaluation?",
+"hint": "-",
+"ans": "Fordeler: Få etiske og praktiske problemer (fordi brukeren ikke er involvert), de beste ekspertene kjenner til brukerne og systemet som testes\nUlemper: Kan være dyrt og vanskelig å finne eksperter, eksperter kan være biased, viktige problemer kan overses."
+},
+{
+"sub": "Evaluation",
+"question": "Kan du nevne Nielsens topp 10 heuristics?",
+"hint": "-",
+"ans": "1. Visibility of system status - gi feedback\n2. Match between system and real world - bruk ord/konsepter fra det ekte liv\n3. User control and freedom - støtt undo/redo osv tilfelle bruker gjør feil\n4. Consistency and standards - hold konvensjon konsistent\n5. Error prevention - fjern muligheten for feilhandlinger\n6. Recognition rather than recall - kun gjør ting synlige når de trengs, unngå unødvendig mye info om gangen\n7. Flexibility and efficiency of use - gjør systemet effektivt for alle (shortcuts, avanserte handlinger osv)\n8. Aesthetic and minimalistic design - ikke vis irrelevant info\n9. Help users recognise, diagnose and recover from errors - feilmeldinger i naturlig språk (ikke feilkoder), foreslå løsninger\n10. Help and documentation - gjør hjelp/info lett tilgjengelig"
+},
+{
+"sub": "Evaluation",
+"question": "Definisjon: cognitive walkthrough",
+"hint": "-",
+"ans": "Stepping through a pre-planned scenario noting potential problems"
+},
+{
+"sub": "Evaluation",
+"question": "Forklar de fem stegene for cognitive walkthrough",
+"hint": "-",
+"ans": "1. Intro - eksperten får info om brukerne, kontekst for bruk og detaljer om oppgaven\n2. En eller flere eksperter går gjennom prototypen med scenariet\n3. Ekspertene guides av tre spørsmål:\n- Vil korrekt handling være tydelig nok for brukeren?\n- Vil brukeren finne ut at korrekt handling er tilgjengelig?\n- Vil brukeren tolke responsen fra handlingen riktig?\n4. Innsamling av data (antakelser om problemer, side-issuses, designendringer, oppsummering)\n5. Designet blir revidert for å fikse problemer som ble oppdaget"
+},
+{
+"sub": "Emotional interaction",
+"question": "Definisjon: Expressive interfaces",
+"hint": "-",
+"ans": "How the appearance of an interface can affect users"
+},
+{
+"sub": "Emotional interaction",
+"question": "What is emotional interaction about?",
+"hint": "-",
+"ans": "Feelings <345"
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er den styggeste emojien som finnes?",
+"hint": "Microsoft sin",
+"img": "emoji"
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er friendly interfaces?",
+"hint": "At home with Bob, Clippy",
+"ans": "3D metaforer basert på kjente steder (feks stua). Agenter kledd ut som dyr for å snakke med brukeren, for å gjøre han mer komfortabel og avslappet."
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er persuasive technologies?",
+"hint": "Pop-up reklamer",
+"ans": "Interaktive systemer som med vilje er designet for å endre folks holdning og oppførsel. Feks påminnelser, advarsler, personlige meldinger og anbefalinger."
+},
+{
+"sub": "Emotional interaction",
+"question": "Behaviour kan forutses av tre ting, hvilke?",
+"hint": "B = M + A + T",
+"ans": "Motivation - hvor mye brukeren ønsker å utføre handlingen\nAbility - hvor enkelt det er å utføre handlingen\nTrigger - intern og ekstern, noe som utløser en handling"
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er forskjellen på indre og ytre triggere?",
+"hint": "-",
+"ans": "Ytre trigger: Ting som forteller hva du skal gjøre (notification, Buy now!)\nIndre trigger: Følelsene dine utløser triggeren, feks du sjekker facebook pga indre trigger om at du kjeder deg"
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er the HOOK, og hva er de fire delene?",
+"hint": "Mønster som gjør at brukere utvikler vaner og fortsetter å bruke et produkt",
+"ans": "De fire delene:\n1. Trigger\n2. Action - the habit itself, den enkleste oppførselen for å få belønning (scrolle insta)\n3. Reward - det du ønsker deg. Variabel belønning mest effektivt (får ikke alltid, enda større desire)\n4. Investment - brukeren bes om å gjøre litt arbeid, for å starte loopen igjen i påvente av ny reward (sende meld, venter på svar/reward)"
+},
+{
+"sub": "Emotional interaction",
+"question": "To måter å endre en persons oppførsel på?",
+"hint": "Interaktive og ikke-interaktive teknologier",
+"ans": "Interaktive: Overvåkning, masing, personlige meldinger man får til stadighet\nIkke-interaktive: Plassering av advarselskilt eller reklamer på fremtredende steder"
+},
+{
+"sub": "Emotional interaction",
+"question": "Definisjon: Anthromorphism",
+"hint": "-",
+"ans": "Attributing human-like/ animal qualities to inanimate objects (feks biler, pcer)"
+},
+{
+"sub": "Emotional interaction",
+"question": "Fordeler og ulemper med anthromorphism?",
+"hint": "-",
+"ans": "Fordeler:\n- Studier sier at pcer som gir komplimenter gir en positiv brukeropplevelse\n- Studenter mer gira på å fortsette oppgaven når de fikk positiv/personlig feedback\nUlemper:\n- Folk blir nervøse/ føler seg dumme\n- Folk pleier å ikke like skjermkarakterer som snakker til dem\n- Mange foretrekker mer upersonlig (Feil, prøv igjen!)\n- Personlig feedback sees på som mindre ærlig, folk føler mindre ansvar for sine handlinger\n- Hvis AIen blir mer menneskelig forventer brukeren at han er som et menneske"
+},
+{
+"sub": "Emotional interaction",
+"question": "What does the Emotional design model include?",
+"hint": "Visceral, behavioural and reflective",
+"ans": "Visceral: Førsteinntrykk, det vi sanser umiddelbart. Lar oss gjøre kjappe beslutninger på hva som er bra/dårlig/..\nBehavioural: Lar oss takle simple, hverdagslige utfordringer. Mesteparten av menneskelig aktivitet er behavioural\nReflective: Se tilbake på hva som er gjort og lære av erfaringer. Kun fra minner, ikke fra direkte interaksjon"
+},
+{
+"sub": "Emotional interaction",
+"question": "Hva er Kinjiro?",
+"hint": "-",
+"ans": "Hjelpemiddel for barn. Søt, fluffy robot som barn kan lese for, som gir feedback tilbake."
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hva er basisreglene for samtale?",
+"hint": "-",
+"ans": "1. Den som snakker peker ut neste til å snakke ved å spør om en mening/spørsmål\n2. En annen person velger å ta ordet\n3. Den som snakket (1) fortsetter å snakke"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hva er awareness mechanisms?",
+"hint": "-",
+"ans": "Vite hvem som er i nærheten, hva som skjer og hvem som snakker med hvem (sidesynet, overhøre, overse)"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Definisjon: Media space",
+"hint": "-",
+"ans": "Electronic settings in which groups of people can work together, even when they are not present in the same place and time. In a media space, people can create real-time visual and acoustic environments that span physically separate areas."
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hva var VideoWindow?",
+"hint": "-",
+"ans": "Teknologi hvor folk 50 miles unna hverandre kunne snakke sammen som om de var på samme sted. Så hverandre gjennom et ..vindu.."
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hva var HyperMirror?",
+"hint": "-",
+"ans": "Teknologi hvor folk i ulike rom ble displayet på en og samme skjerm. Føler at de er i samme rom."
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Pros and cons: Synchronised computer-mediated communication",
+"hint": "Skype, chat",
+"ans": "Pros:\n- Kan være på forskjellig fysisk sted\n- Kan holde seg oppdatert på hva resten av bedriften gjør\nCons:\n- Vanskelig å få øyekontakt gjennom skjerm\n- Folk kan oppføre seg dårlig bak masken til en avatar"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Pros and cons: Asynchronised computer-mediated communication",
+"hint": "Email, tekstmelding",
+"ans": "Pros:\n- Kan lese hvor som helst, når som helst\n- Fleksibelt\n- Kan gjøre det lettere å uttrykke seg\nCons:\n- Message overload (masse ulest hvis du ikke sjekker på en stund)\n- Falske forhåpninger til når du skal få svar"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Definisjon: User testing",
+"hint": "A simulation..",
+"ans": "A simulation of a real user, doing real tasks, in a real context."
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva burde bestemme formatet av en test?",
+"hint": "-",
+"ans": "Formålet med testen og tilgjengelige ressurser"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvilke kriterier er viktige når vi rekrutterer testpersoner?",
+"hint": "Ta med/ikke ta med",
+"ans": "Ta med representative personer fra målgruppene\nIkke ta med folk med for mye erfaring (webutviklere, ansatte, konkurrenter)"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva må vi gjøre når vi planlegger en test?",
+"hint": "Identifisere .., velge oppgaver som ..?",
+"ans": "Identifisere potensielle problemer\n- Snakk med kundeservice, se på web-statistikk, søkelogger\n- Ekspertevaluering, sette seg inn i brukerens situasjon\nVelge oppgaver som..\n- gjøres ofte av mange brukere\n- vil ha stor betydning dersom bruker ikke klarer å gjennomføre"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvordan bør vi formulere oppgavene i en test?",
+"hint": "Formulering",
+"ans": "Bruke ord som er kjent for bruker\nIkke bruk nøykatig samme formulering som i produktet\nOmformuler oppgaven underveis (mer realistisk)"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvilke tre deler består en test av?",
+"hint": "Intro/oppgaver/debriefing",
+"ans": "Intro\n- Les rettigheter og gi oppvarmingsspørsmål\nOppgaver\n- Testpersonen løser oppgavene\nDebriefing\n- Oppfølgingsspørsmål\n- Totalinntrykk\n- Takk for tiden din!"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er active testing?",
+"hint": "Evaluators..",
+"ans": "Evaluators står og analyserer underveis i brukertesten (typisk fra et annet rom)"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er usability testing?",
+"hint": "-",
+"ans": "- Spille inn performance til typiske brukere i en kontrollert setting\n- Måler tid, logger tastetrykk, lagrer film/lyd\n- Evaluere brukertilfredshet (questionnaires/intervju)\n- Field observation"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er gode testing conditions?",
+"hint": "Hvor/fokus/antall/varighet/omgivelser/etikk?",
+"ans": "- Kontrollert område (gjerne usability lab)\n- Fokus på representative testpersoner/oppgaver\n- Typisk 5-10 testpersoner, ~30 min pr oppgave\n- Like omgivelser for alle testpersoner\n- Skrive under på skjema som dealer med etikk"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er typiske data som samles inn under testing?",
+"hint": "Tid/antall",
+"ans": "- Tiden det tar å fullføre oppgave (evt etter tid borte fra produktet)\n- Antall og type feil per oppgave eller per tid\n- Antall navigasjoner til hjelpesider/google\n- Antall brukere som gjør en spesifikk feil\n- Antall suksesser"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er field studies?",
+"hint": "-",
+"ans": "Observere brukere i naturlig setting (in the wild). Se hvordan teknologi påvirker dem. Brukes for å oppdage nye muligheter, bestemme krav, evaluere teknologi i bruk, etc."
+},
+{
+"sub": "User testing & data gathering",
+"question": "Nevn 5 nøkkelproblemer i data gathering",
+"hint": "Mål/deltakere/forhold/triangulation/pilot studies",
+"ans": "- Sette mål: bestemme hvordan man skal analysere innsamlet data\n- Identifisere deltakere: Hvem skal man samle inn data fra?\n- Forhold med deltakerne: Klart og profesjonelt\n- Triangulation: Bruke flere metoder for innsamling\n- Pilot studies: Mini-prøveversjon av innsamlingen"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva lagrer man typisk av data under datainnsamlingsfasen?",
+"hint": "-",
+"ans": "Notater\nLydopptak\nVideo\nBilder"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvilke kategorier deler vi intervjuspørsmål inn i?",
+"hint": "Lukkede/åpne",
+"ans": "Lukkede spørsmål har alternativer (ja/nei/osv) og er letter å analysere.\nÅpne spørsmål har ingen forhåndsbestemte svar."
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvordan gjennomføres et intervju?",
+"hint": "5 deler",
+"ans": "Intro: Preseter deg selv, forklar formål, etc.\nOppvarming: Enkle spørsmål i starten\nHoveddel: Presenter spørsmål i logisk rekkefølge\nCool-off: Avrundende spørsmål\nClosure: Takk testpersonen, avslutt"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er viktig når vi designer questionnaires?",
+"hint": "Rekkefølge, versjoner, instruksjoner",
+"ans": "- Spørsmålsrekkefølgen kan påvirke besvarelsen\n- Trenger du ulike versjoner av questionnaire til ulike grupper?\n- Gi klare instruksjoner om hvordan man gjennomfører den"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvilke rating-skalaer har vi? (questionnaires)",
+"hint": "Likert/Semantic differential",
+"img": "likert"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Pros and cons med online questionnaires",
+"hint": "Svar/printing/database vs sampling/svar-rate/multiple answers",
+"ans": "+ Får svar fort, ingen printing/post, data kan samles rett i database.\n- Vanskelig å få en god sampling av personer, kan være vanskelig å få mange svar, enkelte brukere kan svare flere ganger."
+},
+{
+"sub": "User testing & data gathering",
+"question": "Analyse av testdata: Hvilke to kategorier deler vi data inn i?",
+"hint": "Kvantitative/kvalitative",
+"ans": "Kvantitative data: Uttrykt som tall (måler størrelse/mengde/osv).\nKvalitative data: Vanskelig å måle i tall, representerer mønstre/trender/stories"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hvordan presenterer vi typisk innsamlet data fra tester?",
+"hint": "Kvantitative/kvalitative",
+"ans": "Kvantitative: Snitt/median/mode, prosenter, grafisk presentasjon (diagrammer etc)\nKvalitative: Kategorisering av data, kritiske hendelser, affinity diagrammer\nPresentasjonen kommer an på publikum/mening med testen/analysen. Kun presenter de relevante dataene."
+},
+{
+"sub": "User testing & data gathering",
+"question": "Hva er viktig når vi tolker funn fra datainnsamling?",
+"hint": "3 steps",
+"ans": "1. Hvorfor tror du funnene er som de er?\n2. Kom med forslag for å forbedre\n3. Relater til dine tidligere antakelser"
+},
+{
+"sub": "User testing & data gathering",
+"question": "Gi noen ideer til test-typer",
+"hint": "Preference/5 seconds/klikktest/Question",
+"ans": "Preference test - Hvilken logo liker du best?\n5 second test - Hvor mye av dette husker du etter 5 sek?\nKlikktest - Hvor vil du klikke for å ...?\nQuestion test - Hva forventer du ...?"
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Definisjon: Technology Enhanced Learning (TEL)",
+"hint": "-",
+"ans": "The support of learning activity through technology"
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Forklar CAI, ITS, CSILE",
+"hint": "-",
+"ans": "Computer Aided Instruction - Genererer oppgaver, systematiserte presentasjon\nIntelligent tutoring system - AI (brukes sammen med CAI). Skulle gi studenten feedback, ta tutor-avgjørelser og finne ut hva studenten (ikke) kan.\nComputer Supported Intentional Learning Environment - Nettverk av noder som studentene jobber sammen på. Kan legge ut nye noder, lese og kommentere."
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Nevn tre perspektiver med collaborative learning",
+"hint": "-",
+"ans": "- Felles bygging av kunnskap\n- Felles forhandling om alternativer (diskusjon)\n- Studentene er avhengige av hverandre for feedback"
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Hva er telelearning?",
+"hint": "-",
+"ans": "Læring over nett (Online/net-based/distributed/distance learning)"
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Definisjon: Mobile learning",
+"hint": "-",
+"ans": "Læring som skjer på et ikke-predefinert sted,eller når studenten tar i bruk læringsmuligheter gitt av mobilteknologi."
+},
+{
+"sub": "Technology enhanced learning",
+"question": "Gi et eksempel på participatory learning",
+"hint": "-",
+"ans": "Når studenter bidrar til læring. Eks Kahoot/twitter i klasserommet/duolingo"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hvilke to kategorier deler vi cognition inn i?",
+"hint": "Experimental/reflective",
+"ans": "Experimental: Sinnstilstand hvor vi reagerer effektivt og uanstrengt på det som skjer rundt oss (eks lese bok/kjøre bil).\nReflective: Sinnstilstand hvor vi tenker/sammenlinker/tar beslutninger (eks lære/skrive/designe)"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hvorfor må vi som utviklere forstå cognition?",
+"hint": "Kognitive prosesser/begrensninger, forventinger, problemer",
+"ans": "- Interaksjon invovlerer diverse kognitive prosesser\n- Ta i betraktning kognitive begrensninger hos bruker\n- Gir kunnskap om hva vi (ikke) kan forvente av bruker\n- Hjelper oss å identifisere årsak til problemer"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Definisjon: Oppmerksomhet (attention)",
+"hint": "-",
+"ans": "Velge ting å konsentrere seg om blant alle inntrykk rundt oss"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Gi noen designtips relatert til attention",
+"hint": "Synlighet/skille seg ut",
+"ans": "- Gjøre informasjon synlig bare når den trenger oppmerksomhet\n- Bruker teknikker som skiller seg ut (farge/animasjoner/etc)\n- Unngå for mye informasjon"
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Hva er sammenheng mellom memory og context?",
+"hint": "Påvirkning",
+"ans": "Kontekst påvirker hvordan vi henter ut informasjon fra minnet. Feks kan du ha problemer med å huske hvor du har en person fra dersom du møter de i en uvanlig kontekst."
+},
+{
+"sub": "Cognition & social aspects",
+"question": "Definisjon: Mental models",
+"hint": "-",
+"ans": "Interne konstruksjoner av et aspekt fra den virkelige verden som lar oss gjøre antakelser.\nVi gjør beslutninger basert på mentaler modeller for hvordan å utføre en oppgave.\n- Hvordan bruker systemet, hva gjør vi neste?\n- Hva gjør jeg med ukjent systemer eller ukjente situasjoner?"
+}
+]
